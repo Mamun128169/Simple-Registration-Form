@@ -8,8 +8,72 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h2>Student Registration Form</h2>
-    <small>Please fill up the Form below:</small>
+    <section>
+        <h2>Student Registration Form</h2>
+        <small>Please fill up the Form below:</small>
+        <br> <br>
+        <div class="studen-form">
+            <form action="./action.php">
+                <label for="name">
+                    Name: <input type="text" id="name" placeholder="Enter your name..."> 
+                </label>
+                <br><br>
+                
+                <label for="email">
+                    E-mail: <input type="email" id="email" placeholder="Enter your email..."> 
+                </label>
+                <br><br>
     
+                <label for="pass">
+                    Password: <input type="password" id="pass" placeholder="Enter your password..."> 
+                </label>
+                <br><br>
+    
+                <label for="date">
+                    Birth Date: <input type="date" id="name" placeholder="Enter your birth date..."> 
+                </label>
+                <br>
+
+                <h3>Choose your Gender:</h3>
+                <input type="radio" id="male" name="Gender" value="male">
+                <label for="male">Male</label><br>
+                
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="custom" name="Gender" value="custom">
+                <label for="custom">Custom</label>
+                <br>
+
+                <h3>Choose your favorite Web language:</h3>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <br>
+
+                <h3>Choose your Subjects:</h3>
+                <input type="checkbox" id="phy" name="subject" value="physics">
+                <label for="phy">physics</label>
+                <br>
+                <input type="checkbox" id="che" name="subject" value="chemistry">
+                <label for="che">Chemistry</label>
+                <br>
+                <input type="checkbox" id="cse" name="subject" value="Computer Science and Engineering">
+                <label for="cse">Computer Science and Engineering</label>
+                <br>
+                <input type="checkbox" id="sd" name="subject" value="Software Development">
+                <label for="sd">Software Development</label>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+
+        </div>
+    
+    </section>
 </body>
 </html>
