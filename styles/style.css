@@ -37,3 +37,11 @@ section {
 input[type = password] {
     color: red;
 }
+.btn {
+    border: none;
+    padding: 5px 10px;
+    background-color: rgba(230, 69, 11, 0.92);
+    color: aliceblue;
+    font-weight: 500;
+    margin: 2px 20px;
+}
